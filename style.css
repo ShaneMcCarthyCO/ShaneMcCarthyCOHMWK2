@@ -22,7 +22,6 @@ section p {
 
 .card-img-top {
   width: 600px;
-  float: left;
   font-size: 25px;
   padding: 25px;
   float: right;
@@ -36,6 +35,7 @@ section p {
   font-size: 35px;
   background-color: #d9dcd6;
   padding: 30px;
+  
 }
 
 header {
@@ -44,6 +44,11 @@ header {
     "Lucida Sans", Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
+}
+
+.card {
+  margin-top: 50px;
+  margin-left: 600px;
 }
 
 footer {
@@ -60,10 +65,10 @@ footer {
 
 @media screen and (max-width: 768px) {
   body {
-   background-color: black;
+    background-color: black;
   }
 
-.wrapper {
-  width: 600 px;
+  .wrapper {
+    width: 600 px;
   }
 }
